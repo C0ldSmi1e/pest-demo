@@ -5,11 +5,15 @@ import Inspection from "./inspection";
 
 const Navbar = () => {
   const scrollTo = (id: string) => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
     const element = document.getElementById(id);
     if (element) {
       const navbarHeight = 100; // Adjust this value based on your navbar height
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+      const offsetPosition = elementPosition + window.scrollY - navbarHeight;
 
       window.scrollTo({
         top: offsetPosition,
