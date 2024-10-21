@@ -56,7 +56,7 @@ const Banner = () => {
       </div>
       <Image
         className="hidden lg:block absolute top-36 right-0"
-        src="/images/banner_image.webp"
+        src="https://placehold.co/500x500.png"
         alt="banner"
         width={500}
         height={500}
