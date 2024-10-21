@@ -1,14 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Inspection from "./inspection";
+import Inspection from "@/components/inspection";
 
 const Navbar = () => {
   const scrollTo = (id: string) => {
-    if (typeof window === "undefined") {
-      return;
-    }
-
     const element = document.getElementById(id);
     if (element) {
       const navbarHeight = 100; // Adjust this value based on your navbar height

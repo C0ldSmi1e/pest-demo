@@ -93,6 +93,11 @@ const ReviewCard = ({
 };
 
 const Reviews = () => {
+
+  if (typeof window === "undefined") {
+    return null;
+  }
+
   return (
     <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-24 text-lg text-center py-10">
       <div className="flex flex-col items-center justify-center gap-4">
