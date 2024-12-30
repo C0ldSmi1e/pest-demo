@@ -41,7 +41,10 @@ const Steps = () => {
   return (
     <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-24 text-2xl text-center py-10">
       <div className="flex flex-col items-center justify-center gap-4">
-        <h1 className="text-5xl font-bold">Get started in 3 simple steps</h1>
+        <h1 className="text-5xl font-bold">
+          Get started in 
+          <span className="text-color4"> 3 simple steps</span>
+        </h1>
         <p className="text-3xl">
           It&apos;s this easy to protect your home from unwanted pests
         </p>
