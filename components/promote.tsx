@@ -9,9 +9,9 @@ const Promote = () => {
       <p className="text-xl text-color6 font-bold">
         Schedule your FREE inspection and estimate right away!
       </p>
-      <div className="flex items-center justify-center gap-4">
-        <Inspection />
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
         <Call />
+        <Inspection />
       </div>
     </div>
   );
