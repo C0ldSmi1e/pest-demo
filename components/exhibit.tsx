@@ -71,7 +71,8 @@ const Exhibit = () => {
     <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-24 text-2xl text-left py-10">
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="text-5xl font-bold">
-          Expert Pest Control Services in Perth
+          Expert Pest Control Services in
+          <span className="text-color4"> Perth</span>
         </h1>
         <p className="text-3xl">
           Enjoy a pest-free home with our expert pest control services
