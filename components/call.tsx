@@ -1,6 +1,6 @@
 const Call = () => {
   return (
-    <button className="text-color3 px-4 py-2 rounded-md font-bold hover:bg-color3 hover:text-white transition-all duration-300 flex items-center gap-2">
+    <button className="text-color3 px-4 py-2 rounded-md font-bold hover:bg-color3 hover:text-white transition-all duration-300 flex items-center justify-center gap-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-5 w-5"
