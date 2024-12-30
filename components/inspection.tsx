@@ -12,7 +12,7 @@ const Inspection = () => {
         onClick={() => setIsModalOpen(true)}
         className="bg-color4 text-white px-4 py-2 rounded-md font-bold hover:bg-color5 transition-all duration-300"
       >
-        Book My Free Inspection
+        Get A Free Quote
       </button>
       <Form isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
