@@ -3,28 +3,35 @@ import Image from "next/image";
 const items = [
   {
     image: "/images/book.svg",
-    title: "100% Satisfaction Guaranteed",
-    description: "We guarantee your satisfaction with every service.",
+    title: "Licensed & Insured",
+    description: "Our team consists of fully licensed, insured, and extensively trained pest control operators ensuring safe and professional service across Perth.",
   },
   {
     image: "/images/medal.svg",
-    title: "100% Satisfaction Guaranteed",
-    description: "We guarantee your satisfaction with every service.",
+    title: "Rapid Response Service",
+    description: "We offer same-day service availability throughout the Perth metropolitan area, with flexible scheduling options to accommodate urgent pest control needs.",
   },
   {
     image: "/images/glass.svg",
-    title: "100% Satisfaction Guaranteed",
-    description: "We guarantee your satisfaction with every service.",
+    title: "Satisfaction Guarantee",
+    description: "Every service comes with our comprehensive satisfaction guarantee, backed by detailed follow-up inspections and ongoing support when needed.",
   },
 ];
 
 const Item = ({ image, title, description }: { image: string; title: string; description: string }) => {
   return (
-    <div className="w-full md:w-1/3 flex flex-col md:flex-row items-center justify-center gap-4">
-      <Image src={image} alt={title} width={100} height={100} />
-      <div className="w-full flex flex-col items-center justify-center gap-2">
-        <h1 className="w-full text-2xl font-bold">{title}</h1>
-        <p className="w-full text-lg font-semibold">{description}</p>
+    <div className="w-full md:w-1/3 p-6 flex flex-col items-center justify-start gap-6 rounded-xl transition-all duration-300 hover:bg-white/5">
+      <div className="w-20 h-20 md:w-24 md:h-24 relative">
+        <Image 
+          src={image} 
+          alt={title} 
+          fill
+          className="object-contain"
+        />
+      </div>
+      <div className="flex flex-col items-center text-center gap-4">
+        <h3 className="text-xl md:text-2xl font-bold tracking-tight">{title}</h3>
+        <p className="text-base md:text-lg text-gray-200 leading-relaxed">{description}</p>
       </div>
     </div>
   );
@@ -32,8 +39,8 @@ const Item = ({ image, title, description }: { image: string; title: string; des
 
 const Proof = () => {
   return (
-    <div className="max-w-screen-xl w-full text-white flex flex-col items-center justify-center gap-y-24 text-2xl text-left">
-      <div className="flex flex-col md:flex-row items-start justify-center gap-y-16 gap-x-8">
+    <div className="max-w-screen-xl w-full mx-auto px-4 py-8">
+      <div className="flex flex-col md:flex-row items-stretch justify-center gap-8 md:gap-12">
         {items.map((item) => (
           <Item key={item.title} {...item} />
         ))}
