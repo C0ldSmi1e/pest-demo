@@ -36,12 +36,12 @@ const Banner = () => {
     <div className="relative w-full max-w-screen-xl flex flex-col items-start justify-start gap-6">
       <Google />
       <h1 className="text-4xl font-bold">
-        Pest Control Services in <span className="text-color4">Perth</span>
+        <span className="text-color4">LONG LAST PEST CONTROL</span>
       </h1>
       <p className="text-3xl font-semibold">
-        Protect your property, keep your attic dry and clean,
+        Professional Pest Control Service in <span className="text-color4">Perth</span>
         <br />
-        and prevent the spread of disease​
+        <span className="text-color4">10 Years</span> Experience
       </p>
       <List />
       <p className="text-xl text-color6 font-bold">
