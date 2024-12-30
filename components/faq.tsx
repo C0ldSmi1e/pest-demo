@@ -42,42 +42,37 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-16">
-      <h1 className="text-5xl font-bold">Frequently Asked Questions</h1>
-      <div className="w-full flex flex-col lg:flex-row items-start justify-center gap-y-10 gap-x-8">
+    <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-8 md:gap-y-16 px-4 md:px-6">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+        Frequently Asked Questions
+      </h1>
+      <div className="w-full flex flex-col lg:flex-row items-start justify-center gap-y-6 md:gap-y-10 gap-x-8">
         <Image
           src="https://placehold.co/800x800.png"
           alt="faq"
           width={800}
           height={800}
-          className="rounded-lg w-full lg:w-1/2"
+          className="rounded-lg w-full lg:w-1/2 object-cover"
         />
-        <div className="w-full lg:w-1/2 flex flex-col gap-y-10">
+        <div className="w-full lg:w-1/2 flex flex-col gap-y-4 md:gap-y-6 lg:gap-y-8">
           {items.map((item, index) => (
             <div key={index} className="w-full flex flex-col gap-y-2">
               <button
-                className="w-full text-left flex items-center gap-x-2"
+                className="w-full text-left flex items-start gap-x-3 hover:opacity-80 transition-opacity"
                 onClick={() => toggleActive(index)}
               >
-                {activeIndex === index ? (
+                <div className="mt-1 flex-shrink-0 w-5 h-5">
                   <Image
-                    src="/images/minus.svg"
-                    alt="minus"
+                    src={`/images/${activeIndex === index ? "minus" : "plus"}.svg`}
+                    alt={activeIndex === index ? "minus" : "plus"}
                     width={20}
                     height={20}
                   />
-                ) : (
-                  <Image
-                    src="/images/plus.svg"
-                    alt="plus"
-                    width={20}
-                    height={20}
-                  />
-                )}
-                <h2 className="text-xl font-bold">{item.question}</h2>
+                </div>
+                <h2 className="text-lg md:text-xl font-bold">{item.question}</h2>
               </button>
               {activeIndex === index && (
-                <p className="text-lg">{item.answer}</p>
+                <p className="text-base md:text-lg ml-9">{item.answer}</p>
               )}
             </div>
           ))}
