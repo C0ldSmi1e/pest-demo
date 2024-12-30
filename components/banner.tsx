@@ -36,7 +36,7 @@ const Banner = () => {
     <div className="relative w-full max-w-screen-xl flex flex-col items-start justify-start gap-4 md:gap-6 px-4 md:px-6 lg:px-8">
       <Google />
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-        <span className="text-color4">LONG LAST PEST CONTROL</span>
+        <span className="text-color4">Longlast Pest Control</span>
       </h1>
       <p className="text-xl md:text-2xl lg:text-3xl font-semibold">
         Professional Pest Control Service in <span className="text-color4">Perth</span>
@@ -51,16 +51,21 @@ const Banner = () => {
         <Call />
         <Inspection />
       </div>
-      <div className="w-full lg:w-1/2">
+      <div className="w-full lg:w-2/3">
         <Review />
       </div>
-      <Image
-        className="hidden lg:block absolute top-36 right-0"
-        src="https://placehold.co/500x500.png"
-        alt="banner"
-        width={500}
-        height={500}
-      />
+      <div className="hidden lg:block absolute top-0 right-0" style={{ zIndex: -1 }}>
+        <div className="relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent z-10" />
+          <Image
+            className="relative"
+            src="/images/control-pest-1.jpg"
+            alt="banner"
+            width={700}
+            height={700}
+          />
+        </div>
+      </div>
     </div>
   );
 };

@@ -48,7 +48,7 @@ const FAQ = () => {
       </h1>
       <div className="w-full flex flex-col lg:flex-row items-start justify-center gap-y-6 md:gap-y-10 gap-x-8">
         <Image
-          src="https://placehold.co/800x800.png"
+          src="/images/control-pest-2.jpg"
           alt="faq"
           width={800}
           height={800}

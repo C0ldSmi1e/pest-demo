@@ -30,11 +30,10 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Image
-            src="https://placehold.co/100x100.png"
+            src="/images/logo1.png"
             alt="logo"
-            width={60}
-            height={60}
-            className="cursor-pointer"
+            width={150}
+            height={150}
           />
 
           {/* Desktop Navigation + CTA - All aligned right */}
