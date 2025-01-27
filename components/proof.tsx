@@ -12,7 +12,7 @@ const items = [
     description: "We offer same-day service availability throughout the Perth metropolitan area, with flexible scheduling options to accommodate urgent pest control needs.",
   },
   {
-    image: "/images/glass.svg",
+    image: "/images/checked.svg",
     title: "Satisfaction Guarantee",
     description: "Every service comes with our comprehensive satisfaction guarantee, backed by detailed follow-up inspections and ongoing support when needed.",
   },

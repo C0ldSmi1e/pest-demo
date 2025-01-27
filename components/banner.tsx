@@ -8,23 +8,23 @@ const List = () => {
   return (
     <div className="flex flex-col items-start justify-start gap-2 text-lg md:text-xl lg:text-2xl">
       <p className="flex items-center gap-2">
-        <Image src="/images/yes.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+        <Image src="/images/black-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
         Complete Residential & Commercial Solutions
       </p>
       <p className="flex items-center gap-2">
-        <Image src="/images/yes.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+        <Image src="/images/black-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
         Expert Termite, Bed Bug & Pest Control
       </p>
       <p className="flex items-center gap-2">
-        <Image src="/images/yes.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+        <Image src="/images/black-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
         Licensed & Experienced Technicians
       </p>
       <p className="flex items-center gap-2">
-        <Image src="/images/yes.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+        <Image src="/images/black-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
         Pre-Settlement & End of Lease Inspections
       </p>
       <p className="flex items-center gap-2">
-        <Image src="/images/yes.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+        <Image src="/images/black-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
         Customized Treatment Plans & Guarantees
       </p>
     </div>
@@ -44,7 +44,7 @@ const Banner = () => {
         <span className="text-color4">10 Years</span> Experience
       </p>
       <List />
-      <p className="text-base md:text-lg lg:text-xl text-color6 font-bold">
+      <p className="text-base md:text-lg lg:text-xl text-color4 font-bold">
         Schedule your FREE inspection and estimate today!
       </p>
       <div className="flex flex-col sm:flex-row gap-3 md:gap-4 w-full sm:w-auto">

@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-color10 shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -42,7 +42,7 @@ const Navbar = () => {
               <button
                 key={item}
                 onClick={() => scrollTo(item)}
-                className="text-gray-600 hover:text-color4 transition-colors duration-200 font-medium"
+                className="text-color3 font-bold hover:underline transition-all duration-300"
               >
                 {item.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
               </button>
