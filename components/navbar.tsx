@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-color10 shadow-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -37,12 +37,12 @@ const Navbar = () => {
           />
 
           {/* Desktop Navigation + CTA - All aligned right */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-2">
             {sectionIds.map((item) => (
               <button
                 key={item}
                 onClick={() => scrollTo(item)}
-                className="text-color3 font-bold hover:underline transition-all duration-300"
+                className="px-4 py-2 font-semibold border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 hover:bg-gray-100 rounded-md transition-all duration-300"
               >
                 {item.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
               </button>
@@ -88,7 +88,7 @@ const Navbar = () => {
               <button
                 key={item}
                 onClick={() => scrollTo(item)}
-                className="block w-full text-left px-3 py-2 text-base font-medium text-gray-600 hover:text-color4 hover:bg-gray-50 rounded-md"
+                className="block w-full text-left px-3 py-2 text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-all duration-300"
               >
                 {item.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
               </button>
