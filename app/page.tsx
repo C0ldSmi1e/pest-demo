@@ -21,10 +21,10 @@ const HomePage = () => {
       <div className="px-10 py-16 w-full flex flex-col items-center justify-center gap-y-24 bg-yellow-400 text-navy-900">
         <Proof />
       </div>
-      <div id="reviews" className="px-10 py-16 w-full bg-color9 flex flex-col items-center justify-center gap-y-24">
+      <div id="reviews" className="px-10 py-16 w-full bg-color8 flex flex-col items-center justify-center gap-y-24">
         <Reviews />
       </div>
-      <div id="faq" className="px-10 py-16 w-full bg-color8 flex flex-col items-center justify-center gap-y-24">
+      <div id="faq" className="px-10 py-16 w-full flex flex-col items-center justify-center gap-y-24">
         <FAQ />
       </div>
       <div className="px-10 py-16 w-full flex flex-col items-center justify-center gap-y-24">

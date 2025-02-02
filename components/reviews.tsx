@@ -69,7 +69,7 @@ const ReviewCard = ({
   date: string;
 }) => {
   return (
-    <div className="ml-4 sm:ml-10 w-72 sm:w-96 flex flex-col items-center justify-between gap-4 border-2 border-color3 rounded-lg p-4">
+    <div className="ml-4 sm:ml-10 w-72 sm:w-96 flex flex-col items-center justify-between gap-4 rounded-lg p-4 bg-navy-900 text-white">
       <div className="w-full flex flex-col items-start justify-start gap-4">
         <div className="w-full flex items-center justify-between">
           <div className="flex items-center justify-between gap-2">
@@ -87,8 +87,8 @@ const ReviewCard = ({
           </div>
         </div>
       </div>
-      <p className="w-full text-left text-base sm:text-lg">{review}</p>
-      <p className="w-full text-left text-xs sm:text-sm">{date}</p>
+      <p className="w-full text-left text-base sm:text-lg font-semibold">{review}</p>
+      <p className="w-full text-left text-xs sm:text-sm text-gray-200">{date}</p>
     </div>
   );
 };
@@ -101,7 +101,7 @@ const Reviews = () => {
     <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-12 sm:gap-y-24 text-lg text-center py-6 sm:py-10">
       <div className="flex flex-col items-center justify-center gap-4 px-4">
         <h1 className="text-3xl sm:text-5xl font-bold">
-          Take a look at what our customers are saying…
+          Take a look at what our <span className="text-yellow-400">customers</span> are saying…
         </h1>
         <Google />
       </div>
