@@ -1,6 +1,11 @@
-const Call = () => {
+const Call = ({
+  bgColor = "",
+  hoverBgColor = "hover:bg-navy-800",
+  textColor = "text-navy-900",
+  hoverTextColor = "hover:text-white",
+}) => {
   return (
-    <button className="text-navy-900 px-4 py-2 rounded-md font-bold hover:bg-navy-800 hover:text-white transition-all duration-300 flex items-center justify-center gap-2">
+    <button className={`${bgColor} ${hoverBgColor} ${textColor} ${hoverTextColor} px-4 py-2 rounded-md font-bold transition-all duration-300 flex items-center justify-center gap-2`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-5 w-5"
