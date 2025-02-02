@@ -11,7 +11,7 @@ const Review = () => {
         height={120}
       />
       <div className="flex flex-col gap-2 text-center sm:text-left">
-        <p className="text-base sm:text-xl">
+        <p className="text-base sm:text-xl font-semibold">
           &quot;On time, good price and appeared to be very thorough. I would use Longlast Pest Contol again.&quot;
         </p>
         <div className="text-base sm:text-lg flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
