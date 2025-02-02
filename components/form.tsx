@@ -47,7 +47,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-color4/50 focus:border-color4 transition-all duration-300"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg  focus:outline-none"
               required
             />
           </div>
@@ -60,7 +60,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-color4/50 focus:border-color4 transition-all duration-300"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none"
               required
             />
           </div>
@@ -73,7 +73,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-color4/50 focus:border-color4 transition-all duration-300"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none"
               required
             />
           </div>
@@ -86,7 +86,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
               name="postcode"
               value={formData.postcode}
               onChange={handleChange}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-color4/50 focus:border-color4 transition-all duration-300"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none"
               required
             />
           </div>
@@ -99,7 +99,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
               value={formData.issues}
               onChange={handleChange}
               rows={4}
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-color4/50 focus:border-color4 transition-all duration-300 resize-none"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none resize-none"
               required
             />
           </div>
@@ -108,13 +108,13 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
             <button
               type="button"
               onClick={onClose}
-              className="bg-gray-100 text-gray-700 px-6 py-2.5 rounded-lg hover:bg-gray-200 transition-all duration-300 font-medium"
+              className="bg-gray-100 text-gray-700 px-6 py-2.5 rounded-lg hover:bg-gray-200 transition-all duration-300 font-semibold"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="bg-color4 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-color5 transform hover:scale-105 transition-all duration-300 shadow-md"
+              className="bg-yellow-400 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-yellow-500 transform hover:scale-105 transition-all duration-300 shadow-md"
             >
               Submit
             </button>
