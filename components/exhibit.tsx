@@ -51,11 +51,11 @@ const Item = ({
           alt={title}
           width={1200}
           height={600}
-          className="rounded-lg"
+          className="rounded-lg hover:scale-105 transition-all duration-300"
         />
       </div>
-      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center gap-4 text-left">
-        <h2 className="w-full text-xl font-bold">{title}</h2>
+      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center gap-4 text-left font-semibold hover:bg-navy-800 hover:scale-105 rounded-lg p-4 transition-all duration-300">
+        <h2 className="w-full text-xl font-bold text-yellow-400">{title}</h2>
         {paragraphs.map((paragraph, index) => (
           <p className="text-lg" key={index}>
             {paragraph}
@@ -70,11 +70,11 @@ const Exhibit = () => {
   return (
     <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-24 text-2xl text-left py-10">
       <div className="flex flex-col items-center justify-center gap-4">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-3xl md:text-5xl font-bold">
           Expert Pest Control Services in
-          <span className="text-color4"> Perth</span>
+          <span className="text-yellow-400"> Perth</span>
         </h1>
-        <p className="text-3xl">
+        <p className="text-xl md:text-3xl font-semibold text-gray-300">
           Enjoy a pest-free home with our expert pest control services
         </p>
       </div>

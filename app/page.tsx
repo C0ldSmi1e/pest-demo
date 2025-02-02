@@ -15,7 +15,7 @@ const HomePage = () => {
       <div id="how-it-works" className="px-10 py-16 w-full bg-color9 flex flex-col items-center justify-center gap-y-24 bg-white">
         <Steps />
       </div>
-      <div id="about-us" className="px-10 py-16 w-full bg-color8 flex flex-col items-center justify-center gap-y-24">
+      <div id="about-us" className="px-10 py-16 w-full bg-color8 flex flex-col items-center justify-center gap-y-24 bg-navy-900 text-white">
         <Exhibit />
       </div>
       <div className="px-10 py-16 w-full bg-color4 text-white flex flex-col items-center justify-center gap-y-24">
