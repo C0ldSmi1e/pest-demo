@@ -55,9 +55,9 @@ const Item = ({
         />
       </div>
       <div className="w-full lg:w-1/2 flex flex-col items-center justify-center gap-4 text-left font-semibold hover:bg-navy-800 hover:scale-105 rounded-lg p-4 transition-all duration-300">
-        <h2 className="w-full text-xl font-bold text-yellow-400">{title}</h2>
+        <h2 className="w-full text-xl lg:text-2xl font-bold text-yellow-400">{title}</h2>
         {paragraphs.map((paragraph, index) => (
-          <p className="text-lg" key={index}>
+          <p className="text-base leading-6 lg:leading-8" key={index}>
             {paragraph}
           </p>
         ))}
