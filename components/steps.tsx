@@ -29,7 +29,7 @@ const Item = ({
   description: string;
 }) => {
   return (
-    <div className="w-full md:w-1/3 flex flex-col items-center justify-center gap-4 px-4">
+    <div className="w-full md:w-1/3 flex flex-col items-center justify-center gap-4 px-4 hover:bg-gray-50 hover:scale-105 rounded-lg p-4 transition-all duration-300">
       <Image src={image} alt={title} width={100} height={100} />
       <h2 className="text-xl md:text-2xl font-bold">{title}</h2>
       <p className="text-base md:text-lg text-gray-500 font-semibold">{description}</p>
