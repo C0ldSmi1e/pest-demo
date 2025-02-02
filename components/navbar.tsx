@@ -42,7 +42,7 @@ const Navbar = () => {
               <button
                 key={item}
                 onClick={() => scrollTo(item)}
-                className="px-4 py-2 font-semibold border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 hover:bg-gray-100 rounded-md transition-all duration-300"
+                className="px-4 py-2 font-semibold border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-all duration-300"
               >
                 {item.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
               </button>
