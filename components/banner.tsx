@@ -54,15 +54,14 @@ const Banner = () => {
       <div className="w-full lg:w-2/3">
         <Review />
       </div>
-      <div className="hidden lg:block absolute top-0 right-0">
-        <div className="relative w-[700px] h-[700px]">
+      <div className="absolute bottom-[-60px] right-0 hidden lg:block">
+        <div className="w-[500px] h-[700px]">
           <Image
-            className="object-cover"
-            src="/images/control-pest-1-no-bg.png"
+            className="object-cover hover:scale-105 transition-all duration-300"
+            src="/images/control-pest-2-no-bg.png"
             alt="banner"
             fill
             priority
-            sizes="(min-width: 1024px) 700px, 0px"
           />
         </div>
       </div>
