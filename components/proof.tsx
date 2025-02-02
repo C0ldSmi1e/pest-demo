@@ -12,7 +12,7 @@ const items = [
     description: "We offer same-day service availability throughout the Perth metropolitan area, with flexible scheduling options to accommodate urgent pest control needs.",
   },
   {
-    image: "/images/checked.svg",
+    image: "/images/smile.svg",
     title: "Satisfaction Guarantee",
     description: "Every service comes with our comprehensive satisfaction guarantee, backed by detailed follow-up inspections and ongoing support when needed.",
   },
@@ -20,7 +20,7 @@ const items = [
 
 const Item = ({ image, title, description }: { image: string; title: string; description: string }) => {
   return (
-    <div className="w-full md:w-1/3 p-6 flex flex-col items-center justify-start gap-6 rounded-xl transition-all duration-300 hover:bg-white/5">
+    <div className="w-full md:w-1/3 p-6 flex flex-col items-center justify-start gap-6 rounded-xl transition-all duration-300 hover:bg-yellow-500 hover:scale-105">
       <div className="w-20 h-20 md:w-24 md:h-24 relative">
         <Image 
           src={image} 
@@ -29,9 +29,9 @@ const Item = ({ image, title, description }: { image: string; title: string; des
           className="object-contain"
         />
       </div>
-      <div className="flex flex-col items-center text-center gap-4">
+      <div className="flex flex-col items-center text-center gap-4 font-semibold">
         <h3 className="text-xl md:text-2xl font-bold tracking-tight">{title}</h3>
-        <p className="text-base md:text-lg text-gray-200 leading-relaxed">{description}</p>
+        <p className="text-base md:text-lg leading-relaxed">{description}</p>
       </div>
     </div>
   );
