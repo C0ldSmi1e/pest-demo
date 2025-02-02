@@ -19,6 +19,11 @@ const config: Config = {
         color8: "#F2F6F8",
         color9: "#F5F5F5",
         color10: "#f5f410",
+        navy: {
+          700: "#1a365d",
+          800: "#153e75",
+          900: "#1e3a8a",
+        },
       },
     },
   },

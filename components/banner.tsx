@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Inspection from "@/components/inspection";
 import Call from "@/components/call";
-import Google from "@/components/google";
+import HiPages from "@/components/hipages";
 import Review from "@/components/review";
 
 const List = () => {
@@ -34,7 +34,7 @@ const List = () => {
 const Banner = () => {
   return (
     <div className="relative w-full max-w-screen-xl flex flex-col items-start justify-start gap-4 md:gap-6 px-4 md:px-6 lg:px-8">
-      <Google />
+      <HiPages />
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
         <span className="text-color4">Longlast Pest Control</span>
       </h1>

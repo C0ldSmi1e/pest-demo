@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Google from "@/components/google";
+import Google from "@/components/hipages";
 import { HorizontalTicker } from "react-infinite-ticker";
 
 const items = [
@@ -85,13 +85,6 @@ const ReviewCard = ({
               <p className="text-xs sm:text-sm text-color2">{rating}</p>
             </div>
           </div>
-          <Image
-            src="/images/google_icon.svg"
-            alt="google"
-            width={20}
-            height={20}
-            className="w-4 h-4 sm:w-5 sm:h-5"
-          />
         </div>
       </div>
       <p className="w-full text-left text-base sm:text-lg">{review}</p>

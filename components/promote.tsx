@@ -1,4 +1,4 @@
-import Google from "@/components/google";
+import Google from "@/components/hipages";
 import Inspection from "@/components/inspection";
 import Call from "@/components/call";
 
