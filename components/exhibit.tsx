@@ -6,20 +6,20 @@ const items = [
     title: "Complete Pest Control Solutions for Homes and Businesses in Perth",
     paragraphs: [
       "LONG LAST PEST CONTROL delivers expert pest management services for both residential and commercial properties across Perth. Our comprehensive service range includes residential pest control, commercial pest control, end of lease treatments, and pre-settlement inspections.",
-      "We specialize in treating various pest issues including termites, bed bugs, possums, rodents, cockroaches, and other common pests, ensuring your property remains protected and pest-free.",
+      "We specialise in treating various pest issues including termites, bed bugs, possums, rodents, cockroaches, and other common pests, ensuring your property remains protected and pest-free.",
     ],
   },
   {
     image: "/images/office.jpg",
     title: "Professional Pest Management Services",
     paragraphs: [
-      "Whether you need a one-time treatment or ongoing pest protection, our licensed technicians provide tailored solutions for your specific needs. From thorough termite inspections to comprehensive pest control treatments, we've got you covered.",
-      "Our services include detailed property inspections, customized treatment plans, and preventive measures to keep your space pest-free. We use safe, effective methods suitable for both residential and commercial environments.",
+      "Whether you need a one-off treatment or ongoing pest protection, our licensed technicians provide tailored solutions for your specific needs. From thorough termite inspections to comprehensive pest control treatments, we've got you covered.",
+      "Our services include detailed property inspections, customised treatment plans, and preventive measures to keep your space pest-free. We use safe, effective methods suitable for both residential and commercial environments.",
     ],
   },
   {
     image: "/images/mouse.jpg",
-    title: "Specialized Treatment for Every Pest",
+    title: "Specialised Treatment for Every Pest",
     paragraphs: [
       "We offer targeted solutions for specific pest problems including bed bug elimination, possum removal, rodent control, and cockroach treatments. Our expertise extends to handling both common and challenging pest situations.",
       "For property transactions, our end of lease and pre-settlement inspection services ensure your property meets all pest control requirements, giving you peace of mind during your move or purchase.",

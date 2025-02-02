@@ -37,7 +37,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
       onClick={onClose}>
       <div className="bg-white p-8 rounded-lg w-full max-w-md shadow-xl"
         onClick={(e) => e.stopPropagation()}>
-        <h2 className="text-2xl font-bold mb-6 text-gray-800">Schedule Your Free Consultation</h2>
+        <h2 className="text-2xl font-bold mb-6 text-gray-800">Book Your Free Consultation</h2>
         <form className="space-y-5" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name" className="block mb-1.5 text-gray-700 font-medium">Name</label>
@@ -92,7 +92,7 @@ const Form: React.FC<FormProps> = ({ isOpen, onClose }) => {
           </div>
 
           <div>
-            <label htmlFor="issues" className="block mb-1.5 text-gray-700 font-medium">Issue/s to be Addressed</label>
+            <label htmlFor="issues" className="block mb-1.5 text-gray-700 font-medium">Issues to be Addressed</label>
             <textarea
               id="issues"
               name="issues"

@@ -5,7 +5,7 @@ const items = [
   {
     image: "/images/inspection.svg",
     title: "Free Inspection",
-    description: "Come to your place, inspect your property, then give you a detailed evaluation.",
+    description: "Visit your property, inspect thoroughly, then provide a detailed evaluation.",
   },
   {
     image: "/images/lock.svg",
@@ -15,7 +15,7 @@ const items = [
   {
     image: "/images/good.svg",
     title: "Ongoing Support",
-    description: "Ongoing support and maintenance to ensure your home remains pest-free.",
+    description: "Continuous support and maintenance to ensure your home remains pest-free.",
   },
 ];
 
