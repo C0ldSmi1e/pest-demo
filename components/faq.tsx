@@ -42,7 +42,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-8 md:gap-y-16 px-4 md:px-6">
+    <div className="w-full max-w-screen-xl flex flex-col items-center justify-center gap-y-8 md:gap-y-16 px-4 md:px-6 text-navy-900">
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         Frequently Asked Questions
       </h1>
@@ -52,7 +52,7 @@ const FAQ = () => {
           alt="faq"
           width={800}
           height={800}
-          className="rounded-lg w-full lg:w-1/2 object-cover"
+          className="rounded-lg w-full lg:w-1/2 object-cover hover:scale-105 transition-all duration-300"
         />
         <div className="w-full lg:w-1/2 flex flex-col gap-y-4 md:gap-y-6 lg:gap-y-8">
           {items.map((item, index) => (
@@ -72,7 +72,7 @@ const FAQ = () => {
                 <h2 className="text-lg md:text-xl font-bold">{item.question}</h2>
               </button>
               {activeIndex === index && (
-                <p className="text-base md:text-lg ml-9">{item.answer}</p>
+                <p className="text-base md:text-lg ml-9 font-semibold">{item.answer}</p>
               )}
             </div>
           ))}
