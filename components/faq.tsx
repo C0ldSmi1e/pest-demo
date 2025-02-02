@@ -52,7 +52,7 @@ const FAQ = () => {
           alt="faq"
           width={800}
           height={800}
-          className="rounded-lg w-full lg:w-1/2 object-cover hover:scale-105 transition-all duration-300"
+          className="rounded-lg shadow-lg w-full lg:w-1/2 object-cover hover:scale-105 transition-all duration-300"
         />
         <div className="w-full lg:w-1/2 flex flex-col gap-y-4 md:gap-y-6 lg:gap-y-8">
           {items.map((item, index) => (
