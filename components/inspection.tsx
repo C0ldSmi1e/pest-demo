@@ -10,7 +10,7 @@ const Inspection = () => {
     <>
       <button
         onClick={() => setIsModalOpen(true)}
-        className="bg-color4 text-white px-4 py-2 rounded-md font-bold hover:bg-color5 transition-all duration-300"
+        className="bg-yellow-400 text-white px-4 py-2 rounded-md font-bold hover:bg-yellow-500 transition-all duration-300"
       >
         Get a Free Quote
       </button>
