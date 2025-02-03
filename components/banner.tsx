@@ -33,8 +33,8 @@ const List = () => {
 
 const Banner = () => {
   return (
-    <div className="w-full max-w-screen-xl flex">
-      <div className="w-3/5 flex flex-col items-start justify-start gap-4 md:gap-6 px-4 md:px-6 lg:px-8">
+    <div className="w-full max-w-screen-xl flex flex-col lg:flex-row gap-4 lg:gap-0">
+      <div className="w-full lg:w-3/5 flex flex-col items-start justify-start gap-4 md:gap-6 px-4 md:px-6 lg:px-8">
         <HiPages />
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
           <TypeAnimation
@@ -57,7 +57,7 @@ const Banner = () => {
           <Inspection />
         </div>
       </div>
-      <div className="w-2/5 text-white rounded-lg p-4 shadow-lg bg-yellow-400">
+      <div className="w-full lg:w-2/5 text-white rounded-lg p-4 shadow-lg bg-yellow-400">
         <EmbeddedForm />
       </div>
       {/*
