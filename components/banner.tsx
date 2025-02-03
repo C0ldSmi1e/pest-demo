@@ -28,7 +28,7 @@ const List = () => {
       </p>
       <p className="flex items-center gap-2">
         <Image src="/images/yellow-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
-        Customised Treatment Plans & Guarantees
+        Customised Treatment Plans & Warranties
       </p>
     </div>
   );

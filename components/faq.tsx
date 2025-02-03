@@ -29,7 +29,7 @@ const items = [
     answer: "The duration varies depending on the size of your property and the type of treatment. Most residential treatments take between 30 minutes to 2 hours.",
   },
   {
-    question: "Do you offer any guarantees on your services?",
+    question: "Do you offer any warranties on your services?",
     answer: "Yes, we stand behind our work. If you experience continued pest problems after our treatment within the specified timeframe, we'll return to retreat at no additional cost.",
   },
 ];

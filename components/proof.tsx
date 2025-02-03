@@ -13,8 +13,8 @@ const items = [
   },
   {
     image: "/images/smile.svg",
-    title: "Satisfaction Guarantee",
-    description: "Every service comes with our comprehensive satisfaction guarantee, backed by detailed follow-up inspections and ongoing support when needed.",
+    title: "100% Satisfaction Promise",
+    description: "We stand behind every service with our comprehensive commitment to your satisfaction, backed by detailed follow-up inspections and ongoing support when needed.",
   },
 ];
 
