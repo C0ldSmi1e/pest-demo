@@ -55,7 +55,7 @@ const Banner = () => {
       </p>
       <List />
       <p className="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold">
-        Schedule your FREE inspection and estimate today!
+        Get a Free Quote Today!
       </p>
       <div className="flex flex-col sm:flex-row gap-3 md:gap-4 w-full sm:w-auto">
         <Call bgColor="" hoverBgColor="hover:bg-navy-800" textColor="text-white" hoverTextColor="hover:text-white" />

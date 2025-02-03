@@ -7,7 +7,7 @@ const Promote = () => {
     <div className="text-base flex flex-col items-center justify-center gap-8">
       <Google />
       <p className="text-xl text-navy-900 font-bold">
-        Schedule your FREE inspection and estimate right away!
+        Get a Free Quote Today!
       </p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
         <Call />
