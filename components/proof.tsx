@@ -4,7 +4,7 @@ const items = [
   {
     image: "/images/book.svg",
     title: "Licensed & Insured",
-    description: "Our team consists of fully licensed, insured, and extensively trained pest control operators ensuring safe and professional service across Perth.",
+    description: "Licensed, insured, and extensively trained pest control operators ensuring safe and professional service across Perth.",
   },
   {
     image: "/images/medal.svg",
