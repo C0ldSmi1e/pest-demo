@@ -4,8 +4,8 @@ import Promote from "@/components/promote";
 const items = [
   {
     image: "/images/inspection.svg",
-    title: "Free Inspection",
-    description: "Visit your property, inspect thoroughly, then provide a detailed evaluation.",
+    title: "Free Quote",
+    description: "Get your customised pest control plans.",
   },
   {
     image: "/images/lock.svg",
