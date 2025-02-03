@@ -4,8 +4,9 @@ import Image from "next/image";
 import Inspection from "@/components/inspection";
 import Call from "@/components/call";
 import HiPages from "@/components/hipages";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import EmbeddedForm from "@/components/embeded-form";
 
 const List = () => {
   return (
@@ -32,31 +33,34 @@ const List = () => {
 
 const Banner = () => {
   return (
-    <div className="relative w-full max-w-screen-xl flex flex-col items-start justify-start gap-4 md:gap-6 px-4 md:px-6 lg:px-8">
-      <HiPages />
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-        <TypeAnimation
-          sequence={[
-            "Longlast Pest Control",
-          ]}
-          wrapper="span"
-          speed={50}
-          className="text-yellow-400"
-        />
-      </h1>
-      <p className="text-xl md:text-3xl lg:text-4xl font-bold">
+    <div className="w-full max-w-screen-xl flex">
+      <div className="w-3/5 flex flex-col items-start justify-start gap-4 md:gap-6 px-4 md:px-6 lg:px-8">
+        <HiPages />
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
+          <TypeAnimation
+            sequence={[
+              "Longlast Pest Control",
+            ]}
+            wrapper="span"
+            speed={50}
+            className="text-yellow-400"
+          />
+        </h1>
+        <p className="text-xl md:text-3xl lg:text-4xl font-bold">
         Professional Pest Control Service in <span className="text-yellow-400">Perth</span>
-        <br />
-        <span className="text-yellow-400">7 Years</span> Experience
-      </p>
-      <List />
-      <p className="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold">
-        Get a Free Quote Today!
-      </p>
-      <div className="flex flex-col sm:flex-row gap-3 md:gap-4 w-full sm:w-auto">
-        <Call bgColor="" hoverBgColor="hover:bg-navy-800" textColor="text-white" hoverTextColor="hover:text-white" />
-        <Inspection />
+          <br />
+          <span className="text-yellow-400">7 Years</span> Experience
+        </p>
+        <List />
+        <div className="flex flex-col sm:flex-row gap-3 md:gap-4 w-full sm:w-auto">
+          <Call bgColor="" hoverBgColor="hover:bg-navy-800" textColor="text-white" hoverTextColor="hover:text-white" />
+          <Inspection />
+        </div>
       </div>
+      <div className="w-2/5 text-white rounded-lg p-4 shadow-lg bg-yellow-400">
+        <EmbeddedForm />
+      </div>
+      {/*
       <motion.div 
         className="absolute bottom-[-60px] right-0 hidden lg:block"
         initial={{ x: 100, opacity: 0 }}
@@ -77,6 +81,7 @@ const Banner = () => {
           />
         </motion.div>
       </motion.div>
+      */}
     </div>
   );
 };
