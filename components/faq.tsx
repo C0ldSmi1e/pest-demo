@@ -6,15 +6,11 @@ import Image from "next/image";
 const items = [
   {
     question: "What types of pests do you treat?",
-    answer: "We treat a wide range of pests including ants, roaches, spiders, rodents, termites, bed bugs, and more. If you're dealing with a specific pest not listed here, please contact us for personalized assistance.",
+    answer: "We treat a wide range of pests but not limited to: ants, cockroaches, spiders, termites, bees, wasps, mice, rats, millipedes, silverfish, fleas, bed bugs, crickets, moths. If you're dealing with a specific pest not listed here, please contact us for personalised assistance.",
   },
   {
     question: "Are your pest control methods safe for children and pets?",
-    answer: "Yes, we prioritize the safety of your family and pets. We use eco-friendly and low-toxicity products wherever possible. We'll provide specific safety instructions for each treatment.",
-  },
-  {
-    question: "How often should I schedule pest control services?",
-    answer: "The frequency depends on your specific situation. For general prevention, we recommend quarterly treatments. However, active infestations may require more frequent visits initially.",
+    answer: "Yes, we prioritise the safety of your family and pets. We use eco-friendly and low-toxicity products wherever possible. We'll provide specific safety instructions for each treatment.",
   },
   {
     question: "Do you offer emergency pest control services?",
@@ -23,10 +19,6 @@ const items = [
   {
     question: "What should I do to prepare for a pest control treatment?",
     answer: "We'll provide you with a detailed preparation checklist before your appointment. Generally, this includes removing items from floors, covering food items, and ensuring easy access to treatment areas.",
-  },
-  {
-    question: "How long does a typical pest control treatment take?",
-    answer: "The duration varies depending on the size of your property and the type of treatment. Most residential treatments take between 30 minutes to 2 hours.",
   },
   {
     question: "How often should I schedule pest control services?",
