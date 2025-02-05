@@ -9,50 +9,43 @@ const items = [
   {
     name: "Brad H",
     location: "Gwelup, WA",
-    review: "Fast response",
-    date: "10 Oct 2023",
+    review: "Fast response.",
     rating: "★★★★★",
   },
   {
     name: "Suresh",
     location: "Nollamara, WA",
     review: "David is prifessional, reliable responsive and expert.",
-    date: "6 Aug 2023",
     rating: "★★★★★",
   },
   {
     name: "Britta L",
     location: "Thornlie, WA",
     review: "On time, good price and appeared to be very thorough. I would use Longlast Pest Contol again.",
-    date: "7 Jan 2023",
     rating: "★★★★★",
   },
   {
     name: "Rachael N",
     location: "Thornlie, WA",
     review: "Great service, friendly, ensured there were no other rodents in the house, was thorough and great to work with.",
-    date: "23 Jan 2023",
     rating: "★★★★★",
   },
   {
     name: "Zübeyir S",
     location: "Cottesloe, WA",
     review: "David was a magician. He fixed our ants problem in 5 minutes!",
-    date: "17 Mar 2023",
     rating: "★★★★★",
   },
   {
     name: "Kwame A",
     location: "Balga, WA",
     review: "Very professional and explained what he was going to do. He was punctual and did the job to my satisfaction.",
-    date: "24 Dec 2024",
     rating: "★★★★★",
   },
   {
     name: "Cassie",
     location: "Southern River, WA",
     review: "Quick, friendly and professional. Advised me on the best option with small children and I appreciated the care he showed. Came on the same day.",
-    date: "15 Dec 2022",
     rating: "★★★★★",
   }
 ];
@@ -61,15 +54,13 @@ const ReviewCard = ({
   name,
   rating,
   review,
-  date,
 }: {
   name: string;
   rating: string;
   review: string;
-  date: string;
 }) => {
   return (
-    <div className="ml-4 sm:ml-10 w-72 sm:w-96 flex flex-col items-center justify-between gap-4 rounded-lg p-4 bg-navy-900 text-white">
+    <div className="ml-4 sm:ml-10 w-72 sm:w-96 flex flex-col items-center justify-start gap-4 rounded-lg p-4 bg-navy-900 text-white">
       <div className="w-full flex flex-col items-start justify-start gap-4">
         <div className="w-full flex items-center justify-between">
           <div className="flex items-center justify-between gap-2">
@@ -88,7 +79,6 @@ const ReviewCard = ({
         </div>
       </div>
       <p className="w-full text-left text-base sm:text-lg font-semibold">{review}</p>
-      <p className="w-full text-left text-xs sm:text-sm text-gray-200">{date}</p>
     </div>
   );
 };
