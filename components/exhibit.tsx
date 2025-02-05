@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const items = [
   {
-    image: "/images/home.jpg",
+    image: "/images/exhibit1.png",
     title: "Complete Pest Control Solutions for Homes and Businesses in Perth",
     paragraphs: [
       "LONG LAST PEST CONTROL delivers expert pest management services for both residential and commercial properties across Perth. Our comprehensive service range includes residential pest control, commercial pest control, end of lease treatments, and pre-settlement inspections.",
@@ -10,7 +10,7 @@ const items = [
     ],
   },
   {
-    image: "/images/office.jpg",
+    image: "/images/exhibit2.png",
     title: "Professional Pest Management Services",
     paragraphs: [
       "Whether you need a one-off treatment or ongoing pest protection, our licensed technicians provide tailored solutions for your specific needs. From thorough termite inspections to comprehensive pest control treatments, we've got you covered.",
@@ -18,7 +18,7 @@ const items = [
     ],
   },
   {
-    image: "/images/mouse.jpg",
+    image: "/images/exhibit3.png",
     title: "Specialised Treatment for Every Pest",
     paragraphs: [
       "We offer targeted solutions for specific pest problems including bed bug elimination, possum removal, rodent control, and cockroach treatments. Our expertise extends to handling both common and challenging pest situations.",
