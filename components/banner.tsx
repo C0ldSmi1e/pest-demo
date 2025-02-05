@@ -11,20 +11,44 @@ import EmbeddedForm from "@/components/embeded-form";
 const List = () => {
   return (
     <div className="flex flex-col items-start justify-start gap-4 text-lg md:text-xl lg:text-2xl font-semibold text-gray-300">
-      <p className="flex items-center gap-2">
-        <Image src="/images/yellow-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
-        Complete Residential & Commercial Solutions
-      </p>
-      <p className="flex items-center gap-2">
-        <Image src="/images/yellow-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+      <p className="flex items-start gap-2">
+        <Image
+          src="/images/yellow-checked.svg"
+          alt="check"
+          width={20}
+          height={20}
+          className="mt-1 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6"
+        />
         Licensed & Experienced Technicians
       </p>
-      <p className="flex items-center gap-2">
-        <Image src="/images/yellow-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
-        Pre-Settlement & End of Lease Inspections
+      <p className="flex items-start gap-2">
+        <Image
+          src="/images/yellow-checked.svg"
+          alt="check"
+          width={20}
+          height={20}
+          className="mt-1 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6"
+        />
+        Residential & Commercial Solutions
       </p>
-      <p className="flex items-center gap-2">
-        <Image src="/images/yellow-checked.svg" alt="check" width={20} height={20} className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+      <p className="flex items-start gap-2">
+        <Image
+          src="/images/yellow-checked.svg"
+          alt="check"
+          width={20}
+          height={20}
+          className="mt-1 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6"
+        />
+        Service to Perth, including but not limited to: ants, cockroaches, spiders, termites, bees, wasps, mice, rats, millipedes, silverfish, fleas, bed bugs, crickets, moths
+      </p>
+      <p className="flex items-start gap-2">
+        <Image
+          src="/images/yellow-checked.svg"
+          alt="check"
+          width={20}
+          height={20}
+          className="mt-1 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6"
+        />
         Customised Treatment Plans
       </p>
     </div>
