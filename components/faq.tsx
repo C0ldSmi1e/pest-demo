@@ -27,6 +27,14 @@ const items = [
   {
     question: "How long does a typical pest control treatment take?",
     answer: "The duration varies depending on the size of your property and the type of treatment. Most residential treatments take between 30 minutes to 2 hours.",
+  },
+  {
+    question: "How often should I schedule pest control services?",
+    answer: "The frequency varies from pest to pest, but we recommend annual treatments for general prevention.",
+  },
+  {
+    question: "How long does a typical pest control treatment take?",
+    answer: "Varies from case to case. General pest treatments take one and half to two hours, termite barrier installation takes around 5-6 hours, and termite inspection takes around 1 hour.",
   }
 ];
 
