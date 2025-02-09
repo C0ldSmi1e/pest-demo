@@ -8,12 +8,12 @@ const items = [
   },
   {
     image: "/images/medal.svg",
-    title: "Rapid Response Service",
-    description: "We offer same-day service availability throughout the Perth metropolitan area, with flexible scheduling options to accommodate urgent pest control needs.",
+    title: "Reliable Service",
+    description: "We offer prompt service availability throughout the Perth metropolitan area, with flexible scheduling options to accommodate urgent pest control needs.",
   },
   {
     image: "/images/smile.svg",
-    title: "100% Satisfaction Promise",
+    title: "Your Satisfaction Our Motivation",
     description: "We stand behind every service with our comprehensive commitment to your satisfaction, backed by detailed follow-up inspections and ongoing support when needed.",
   },
 ];
