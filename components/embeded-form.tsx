@@ -40,7 +40,7 @@ const EmbeddedForm = () => {
 
   return (
     <iframe
-      data-tally-src="https://tally.so/embed/nWKlOQ?hideTitle=1&dynamicHeight=1"
+      data-tally-src="https://tally.so/embed/npJpby?hideTitle=1&dynamicHeight=1"
       loading="lazy"
       width="100%"
       height={644}

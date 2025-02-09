@@ -4,7 +4,7 @@ const Inspection = () => {
   return (
     <>
       <button
-        data-tally-open="nWKlOQ"
+        data-tally-open="npJpby"
         data-tally-layout="modal"
         data-tally-hide-title="1"
         data-tally-emoji-text="👋"
